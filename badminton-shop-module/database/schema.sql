@@ -24,7 +24,7 @@ CREATE TABLE product (
     description    TEXT,
     price          DECIMAL(10,2) NOT NULL,
     stock_quantity INT NOT NULL DEFAULT 0,
-    image_url      VARCHAR(255),
+    image_url      VARCHAR(255), 
     rating         DECIMAL(2,1) DEFAULT 0.0,
     review_count   INT DEFAULT 0,
     category_id    INT,
@@ -136,3 +136,4 @@ INSERT INTO product (name, description, price, stock_quantity, image_url, rating
 -- Demo user (password should be hashed in real app — see auth note in README)
 INSERT INTO users (name, email, phone, password, address, city) VALUES
 ('John D. Perera', 'john.perera@example.com', '0771234567', '$2b$10$placeholderHashedPassword', '123, KDU Road, Ratmalana', 'Colombo, Sri Lanka');
+   

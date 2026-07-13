@@ -22,7 +22,7 @@ badminton-shop-module/
     │   ├── context/          ← CartContext (global cart state)
     │   ├── api/client.js     ← all Axios calls in one place
     │   └── styles/global.css ← matches wireframe colors (purple/green)
-    └── vite.config.js        ← proxies /api → localhost:5000
+    └── vite.config.js        ← proxies /api → localhost:5000 
 ```
 
 Setup in VS Code — step by step
@@ -107,4 +107,4 @@ Pick whichever you need — I can generate any of these on request:
 - Real PayHere or Stripe payment integration
 - Image upload for the Admin Dashboard (instead of typing a URL)
 - React Native versions of these same screens for your mobile app
-- Order status management UI for admins (Pending → Processing → Shipped → Delivered)
+- Order status management UI for admins (Pending → Processing → Shipped → Delivered)  
